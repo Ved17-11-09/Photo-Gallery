@@ -1,0 +1,55 @@
+img:hover {
+    transform: scale(0.9);
+}
+
+iframe:hover {
+    transform: scale(0.9);
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#b3f0ff 0%, #66ff66 100%);
+}
+
+#apps {
+    padding-top: 50px ;
+    width: 80% ;
+    height: 800px ;
+    background-color: orange;
+}
+
+
+
+#menu {
+    list-style: none;
+    margin-left: 900px;
+    color: black ;
+}
+
+
+
+.links {
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+
+
+
+.links:hover {
+    background-color: brown;
+    transform-style: preserve-3d;
+    transform: scale(2);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#myCarousel {
+    background-color: green ;
+    color: white ;
+    padding : 30px ;
+}
